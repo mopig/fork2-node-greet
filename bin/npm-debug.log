@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'link' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose linkPkg /Users/shenglizhou/nodejs/greet
+5 verbose link build target /usr/local/lib/node_modules/greet
+6 verbose install where,what [ '/Users/shenglizhou/nodejs/greet', [] ]
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/shenglizhou/nodejs/greet', [ 'mocha' ] ]
+9 info preinstall greet@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping mocha@^1.18.2 /Users/shenglizhou/nodejs/greet
+12 silly resolved []
+13 info build /Users/shenglizhou/nodejs/greet
+14 verbose linkStuff [ false, false, false, '/Users/shenglizhou/nodejs' ]
+15 info linkStuff greet@0.0.0
+16 verbose linkBins greet@0.0.0
+17 verbose linkMans greet@0.0.0
+18 verbose rebuildBundles greet@0.0.0
+19 verbose rebuildBundles [ '.bin', 'gr', 'mocha' ]
+20 verbose rebuild bundle /Users/shenglizhou/nodejs/greet/node_modules/gr
+21 info build /Users/shenglizhou/nodejs/greet/node_modules/gr
+22 info preinstall gr@0.0.1
+23 verbose linkStuff [ false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   '/Users/shenglizhou/nodejs/greet/node_modules' ]
+24 info linkStuff gr@0.0.1
+25 verbose linkBins gr@0.0.1
+26 verbose link bins [ { gr: './gr.js' },
+26 verbose link bins   '/Users/shenglizhou/nodejs/greet/node_modules/.bin',
+26 verbose link bins   false ]
+27 verbose linkMans gr@0.0.1
+28 verbose rebuildBundles gr@0.0.1
+29 verbose rebuildBundles [ 'request', 'temp' ]
+30 info install gr@0.0.1
+31 info postinstall gr@0.0.1
+32 info install greet@0.0.0
+33 info postinstall greet@0.0.0
+34 info prepublish greet@0.0.0
+35 info build /usr/local/lib/node_modules/greet
+36 verbose linkStuff [ true,
+36 verbose linkStuff   '/usr/local/lib/node_modules',
+36 verbose linkStuff   true,
+36 verbose linkStuff   '/usr/local/lib/node_modules' ]
+37 info linkStuff greet@0.0.0
+38 verbose linkBins greet@0.0.0
+39 verbose link bins [ { greet: '.bin/greet.js' }, '/usr/local/bin', true ]
+40 verbose linkMans greet@0.0.0
+41 error Error: ENOENT, chmod '/usr/local/lib/node_modules/greet/.bin/greet.js'
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 13.1.0
+44 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "link"
+45 error cwd /Users/shenglizhou/nodejs/greet/bin
+46 error node -v v0.10.26
+47 error npm -v 1.4.3
+48 error path /usr/local/lib/node_modules/greet/.bin/greet.js
+49 error code ENOENT
+50 error errno 34
+51 verbose exit [ 34, true ]
