@@ -1,4 +1,4 @@
-module.export = ->
+module.exports = ->
   greet = require("../lib/index.js")
   parseArgs = require("minimist")
   arguments1 = process.argv.slice(2)
